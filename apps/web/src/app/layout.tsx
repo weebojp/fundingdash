@@ -1,6 +1,6 @@
 import './globals.css';
 import type { ReactNode } from 'react';
-import { Providers } from './providers';
+import Providers from './providers';
 
 export const metadata = {
   title: 'EVPlus Funding Rate Monitor',

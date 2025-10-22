@@ -1,5 +1,7 @@
 'use client';
 
+import type { FundingSnapshot } from '@evplus/contracts';
+
 import { Header } from '../components/layout/Header';
 import { Page } from '../components/layout/Page';
 import { Viewport } from '../components/layout/Viewport';
@@ -11,7 +13,7 @@ import { useFundingSnapshots } from './useFundingSnapshots';
 export default function Home() {
   const { data, isLoading, isError, isFetching, refetch } = useFundingSnapshots();
 
-  const snapshots = data?.snapshots ?? [];
+  const snapshots: FundingSnapshot[] = data?.snapshots ?? [];
   const lastUpdated = data?.updatedAt ?? null;
   const activeVenues = new Set(snapshots.map((snapshot) => snapshot.exchange)).size;
 
