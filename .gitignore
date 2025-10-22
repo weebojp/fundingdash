@@ -1,0 +1,13 @@
+node_modules
+.pnpm-store
+.next
+out
+build
+coverage
+dist
+# Environment files (local overrides, production secrets)
+.env
+.env.*
+*.env
+apps/**/.env*
+.DS_Store

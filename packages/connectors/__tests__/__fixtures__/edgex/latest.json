@@ -1,0 +1,23 @@
+{
+  "code": "SUCCESS",
+  "data": [
+    {
+      "contractId": "10000001",
+      "contractName": "BTCUSDT",
+      "fundingRate": "0.0001",
+      "fundingTimestamp": "1734597720000",
+      "fundingTime": "1734595200000",
+      "fundingRateIntervalMin": "240",
+      "indexPrice": "101522.5589685"
+    },
+    {
+      "contractId": "10000002",
+      "contractName": "ETHUSDT",
+      "fundingRate": "-0.00025",
+      "fundingTimestamp": "1734597720000",
+      "fundingTime": "1734595200000",
+      "fundingRateIntervalMin": "240",
+      "indexPrice": "3500.1234"
+    }
+  ]
+}

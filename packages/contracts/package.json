@@ -1,0 +1,23 @@
+{
+  "name": "@evplus/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./schemas": {
+      "import": "./src/schemas.ts",
+      "default": "./src/schemas.ts"
+    }
+  },
+  "files": ["src"],
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

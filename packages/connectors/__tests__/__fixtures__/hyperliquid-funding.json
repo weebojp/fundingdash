@@ -1,0 +1,20 @@
+{
+  "fundingRates": [
+    {
+      "coin": "BTC",
+      "fundingRate": 0.00125,
+      "fundingRate8h": 0.004,
+      "timestamp": 1700000000000,
+      "nextFundingTime": 1700002880000,
+      "markPrice": 42000.5
+    },
+    {
+      "coin": "ETH",
+      "fundingRate": -0.0005,
+      "fundingRate8h": -0.0015,
+      "timestamp": 1700000050000,
+      "nextFundingTime": 1700002930000,
+      "markPrice": 2300.12
+    }
+  ]
+}

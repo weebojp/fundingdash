@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "funding_rates": [
+    {
+      "market_id": 0,
+      "exchange": "binance",
+      "symbol": "BTC",
+      "rate": -0.00007191
+    },
+    {
+      "market_id": 1,
+      "exchange": "bybit",
+      "symbol": "ETH",
+      "rate": 0.0001
+    }
+  ]
+}

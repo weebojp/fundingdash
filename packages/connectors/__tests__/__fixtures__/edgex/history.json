@@ -1,0 +1,15 @@
+{
+  "code": "SUCCESS",
+  "data": {
+    "dataList": [
+      {
+        "contractId": "10000001",
+        "contractName": "BTCUSDT",
+        "fundingRate": "0.00005",
+        "fundingTimestamp": "1734595200000",
+        "fundingRateIntervalMin": "240"
+      }
+    ],
+    "nextPageOffsetData": null
+  }
+}

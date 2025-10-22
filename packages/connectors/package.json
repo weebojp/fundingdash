@@ -1,0 +1,43 @@
+{
+  "name": "@evplus/connectors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./index": {
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./hyperliquid": {
+      "import": "./src/hyperliquid.ts",
+      "default": "./src/hyperliquid.ts"
+    },
+    "./aster": {
+      "import": "./src/aster.ts",
+      "default": "./src/aster.ts"
+    },
+    "./paradex": {
+      "import": "./src/paradex.ts",
+      "default": "./src/paradex.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "cross-fetch": "^3.1.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@evplus/contracts": "workspace:*",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

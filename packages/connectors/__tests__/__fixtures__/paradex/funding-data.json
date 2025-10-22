@@ -1,0 +1,11 @@
+{
+  "next": null,
+  "results": [
+    {
+      "market": "BTC-USD-PERP",
+      "funding_rate": "0.000123",
+      "funding_period_hours": 1,
+      "created_at": 1700000000000
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark :root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-50 dark:bg-slate-900 dark:text-slate-100;
+}
+
+[data-theme='light'] body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}

@@ -1,0 +1,8 @@
+{
+  "results": [
+    { "symbol": "BTC-USD-PERP", "asset_kind": "PERP" },
+    { "symbol": "ETH-USD-PERP", "asset_kind": "PERP" },
+    { "symbol": "SOL-USD-PERP", "asset_kind": "PERP" },
+    { "symbol": "BTC-USD-OPTION", "asset_kind": "PERP_OPTION" }
+  ]
+}

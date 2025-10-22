@@ -1,0 +1,10 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "fundingIntervalHours": 4
+  },
+  {
+    "symbol": "ETHUSDT",
+    "fundingIntervalHours": 1
+  }
+]

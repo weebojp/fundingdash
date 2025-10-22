@@ -1,0 +1,21 @@
+{
+  "code": "SUCCESS",
+  "data": {
+    "contractList": [
+      {
+        "contractId": "10000001",
+        "contractName": "BTCUSDT",
+        "enableDisplay": true,
+        "enableTrade": true,
+        "fundingRateIntervalMin": "240"
+      },
+      {
+        "contractId": "10000002",
+        "contractName": "ETHUSDT",
+        "enableDisplay": true,
+        "enableTrade": true,
+        "fundingRateIntervalMin": "240"
+      }
+    ]
+  }
+}

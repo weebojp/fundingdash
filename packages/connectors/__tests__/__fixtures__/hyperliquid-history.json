@@ -1,0 +1,15 @@
+{
+  "fundingRates": [
+    {
+      "coin": "BTC",
+      "fundingRate": 0.0025,
+      "fundingRate8h": 0.0025,
+      "startTime": 1700000000000
+    },
+    {
+      "coin": "BTC",
+      "fundingRate": -0.001,
+      "startTime": 1700000280000
+    }
+  ]
+}
