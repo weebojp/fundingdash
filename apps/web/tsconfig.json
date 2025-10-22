@@ -10,8 +10,7 @@
     "allowJs": false,
     "moduleResolution": "bundler",
     "types": [
-      "node",
-      "vite/client"
+      "node"
     ],
     "baseUrl": ".",
     "noEmit": true,
