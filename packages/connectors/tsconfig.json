@@ -3,8 +3,13 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "dist",
+    "rootDir": "src",
     "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "@evplus/contracts": ["../contracts/dist/index.js"],
+      "@evplus/contracts/*": ["../contracts/dist/*.js"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "__tests__"]

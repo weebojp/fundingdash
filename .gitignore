@@ -5,6 +5,9 @@ out
 build
 coverage
 dist
+.turbo
+# Package-local turbo caches
+packages/**/.turbo
 # Environment files (local overrides, production secrets)
 .env
 .env.*
