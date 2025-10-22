@@ -3,31 +3,43 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./src/index.ts",
-      "default": "./src/index.ts"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     },
     "./index": {
-      "import": "./src/index.ts",
-      "default": "./src/index.ts"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     },
     "./hyperliquid": {
-      "import": "./src/hyperliquid.ts",
-      "default": "./src/hyperliquid.ts"
+      "import": "./dist/hyperliquid.js",
+      "types": "./dist/hyperliquid.d.ts"
     },
     "./aster": {
-      "import": "./src/aster.ts",
-      "default": "./src/aster.ts"
+      "import": "./dist/aster.js",
+      "types": "./dist/aster.d.ts"
     },
     "./paradex": {
-      "import": "./src/paradex.ts",
-      "default": "./src/paradex.ts"
+      "import": "./dist/paradex.js",
+      "types": "./dist/paradex.d.ts"
+    },
+    "./edgex": {
+      "import": "./dist/edgex.js",
+      "types": "./dist/edgex.d.ts"
+    },
+    "./lighter": {
+      "import": "./dist/lighter.js",
+      "types": "./dist/lighter.d.ts"
     }
   },
-  "files": [
-    "src"
-  ],
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
   "dependencies": {
     "cross-fetch": "^3.1.8",
     "zod": "^3.23.8"
@@ -36,8 +48,5 @@
     "@evplus/contracts": "workspace:*",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
-  },
-  "scripts": {
-    "test": "vitest run"
   }
 }

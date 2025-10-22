@@ -9,6 +9,12 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "types": ["node"],
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@evplus/contracts": ["packages/contracts/src/index.ts"],
+      "@evplus/contracts/*": ["packages/contracts/src/*"],
+      "@evplus/connectors": ["packages/connectors/src/index.ts"],
+      "@evplus/connectors/*": ["packages/connectors/src/*"]
+    }
   }
 }

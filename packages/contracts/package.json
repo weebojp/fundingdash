@@ -3,17 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./src/index.ts",
-      "default": "./src/index.ts"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./index": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     },
     "./schemas": {
-      "import": "./src/schemas.ts",
-      "default": "./src/schemas.ts"
+      "import": "./dist/schemas.js",
+      "types": "./dist/schemas.d.ts"
     }
   },
-  "files": ["src"],
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
   "dependencies": {
     "zod": "^3.23.8"
   },
